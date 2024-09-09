@@ -1,7 +1,8 @@
-// import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/grademate.png";
+import project2 from "../assets/projects/rurallibrary.png";
+import project3 from "../assets/projects/uninav.png";
+import project4 from "../assets/projects/foodrecipe.png";
+import project5 from "../assets/projects/cpp.png";
 
 export const HERO_CONTENT = `As a Computer Science graduate specializing in Software Engineering, my journey into this field began with curiosity and grew into a passion for front-end development. Initially unsure of my path, I explored various aspects of coding through languages like C, C++, and Java, only to discover that my true interest lies in creating engaging user experiences through UI/UX design. I am eager to apply my skills in cloud-based systems, with a particular focus on front-end development, and contribute to innovative projects that combine aesthetics with functionality. With a strong foundation in computer science and a clear vision for my career, I am excited to bring my dedication, creativity, and technical expertise to a team that values growth and innovation.`;
 
@@ -46,35 +47,35 @@ export const EXPERIENCES = [
 export const PROJECTS = [
 	{
 		title: "GradeMate Web Application",
-		// image: project1,
+		image: project1,
 		description:
 			"An interactive web application designed for academic performance tracking and management for students, advisors, and administrators. Utilized React for front-end, Flask for back-end, and integrated AI-driven features for predictive analytics.",
 		technologies: ["React", "Flask", "MySQL", "LangChain", "AWS Lambda"],
 	},
 	{
 		title: "Rural Library Management System",
-		// image: project2,
+		image: project2,
 		description:
 			"A web-based system developed using Laravel to streamline library operations, including user authentication, book management, and tracking of borrowings and returns.",
 		technologies: ["Laravel", "PHP", "MySQL"],
 	},
 	{
 		title: "Campus Navigation Mobile App Prototype",
-		// image: project3,
+		image: project3,
 		description:
 			"A mobile app prototype built using Figma to facilitate navigation inside and outside campus buildings, employing modern UI/UX design principles.",
 		technologies: ["Figma", "UI/UX Design"],
 	},
 	{
 		title: "Food Recipe Collection Website",
-		// image: project4,
+		image: project4,
 		description:
 			"A website displaying a collection of food recipes developed using HTML, CSS, JavaScript, and PHP. Focused on a user-friendly design and dynamic content presentation.",
 		technologies: ["HTML", "CSS", "JavaScript", "PHP"],
 	},
 	{
 		title: "Student Registration System",
-		// image: project5,
+		image: project5,
 		description:
 			"A C++ application allowing students to register for courses, view subjects, and calculate total fees. Included error handling and input validation to ensure stability and security.",
 		technologies: ["C++"],
